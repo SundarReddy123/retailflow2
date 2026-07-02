@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'retailfow.urls'
+ROOT_URLCONF = 'retailflow.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'retailfow.wsgi.application'
+WSGI_APPLICATION = 'retailflow.wsgi.application'
 
 
 # Database
