@@ -1,0 +1,38 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.env
+.venv/
+venv/
+env/
+media/
+staticfiles/
+*.egg-info/
+
+# Django-specific generated files
+/backend/media/invoices/*.pdf
+/backend/media/receipts/
+
+# React / Node
+node_modules/
+frontend/build/
+frontend/dist/
+.env.local
+.env.*.local
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker / deployment
+*.pem
+docker-compose.override.yml
