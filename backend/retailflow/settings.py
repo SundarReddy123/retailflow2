@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'accounts',
     'shops',
+    'inventory',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
