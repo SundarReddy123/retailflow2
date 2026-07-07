@@ -33,3 +33,5 @@ class Stock(models.Model):
 
     class Meta:
         unique_together = ('branch', 'product')
+    
+    
