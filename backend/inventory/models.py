@@ -34,4 +34,5 @@ class Stock(models.Model):
     class Meta:
         unique_together = ('branch', 'product')
     
-    
+    def __str__(self):
+        return f"{self.product.name} @ {self.branch.name}: {self.quantity}"
