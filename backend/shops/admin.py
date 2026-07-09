@@ -5,3 +5,4 @@ from .models import ShopChain, Branch, UserBranchRole
 admin.site.register(ShopChain)
 admin.site.register(Branch)
 admin.site.register(UserBranchRole)
+
